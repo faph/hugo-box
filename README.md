@@ -8,10 +8,10 @@ Based on debian (stable) image. Installed packages:
  - git
  - openssh-client
 
-Designed to be used on [Wercker](https://wercker.com) to automatically—
+Designed to be used on [Wercker](https://wercker.com) to automatically and **super fast**—
 
- 1. Build the website using Hugo when pushing to a GitHub repo
- 2. Publish the generated website to a GitHub Pages repo (authorised by SSH key)
+ 1. **Build** the website using Hugo when pushing to a GitHub repo
+ 2. **Publish** the generated website to a GitHub Pages repo (authorised by SSH key)
 
 A complete `wercker.yml` config file could look like this (save this in the root of the repo):
 
