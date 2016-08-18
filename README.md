@@ -1,8 +1,8 @@
 # Hugo Box
 
-Docker container for building and deploying static websites with Hugo
+Docker container for building and deploying static websites with [Hugo](https://gohugo.io).
 
-Based on debian (stable) image. Installed packages:
+Based on [debian (stable) image](https://hub.docker.com/_/debian/). Additionally installed packages:
 
  - hugo
  - git
