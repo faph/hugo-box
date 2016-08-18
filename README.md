@@ -1,3 +1,5 @@
+[![Docker Automated buil](https://img.shields.io/docker/automated/faph/hugo-box.svg?maxAge=2592000)](https://hub.docker.com/r/faph/hugo-box/)
+
 # Hugo Box
 
 Docker container for building and deploying static websites with [Hugo](https://gohugo.io).
