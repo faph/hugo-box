@@ -18,7 +18,7 @@ Designed to be used on [Wercker](https://wercker.com) to automatically and **sup
 A complete `wercker.yml` config file could look like this (save this in the root of the repo):
 
 ```yaml
-box: faph/hugo-box
+box: faph/hugo-box:0.16
 
 build:
   steps:
