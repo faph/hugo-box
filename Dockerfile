@@ -14,8 +14,8 @@ RUN  apt-get --assume-yes --quiet update \
   && rm -rf /var/lib/apt/lists/*
 
 # Configure git so it's ready to be used.
-RUN  git config --system user.name "Hugo Box" \
-  && git config --system user.email faph@users.noreply.github.com 
+RUN  git config --system user.name "Hugo Box (Docker container)" \
+  && git config --system user.email docker@users.noreply.github.com 
 
 # Install Hugo
 ADD $HUGO_URL hugo.deb
