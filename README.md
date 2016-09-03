@@ -34,13 +34,10 @@ publish:
   - wercker/add-to-known_hosts@2.0.1:
       hostname: github.com
       fingerprint: 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48
-  - lordlothar99/git-push@0.7.18:
-      host: github.com
-      repo: {github_username}/{repo_name}
-      gh_pages: true
-      gh_pages_domain: example.org
+  - faph/git-push:
+      repo: ssh://git@github.com:{username}/{repo}.git
+      branch: gh-pages
       basedir: public
-      clean_removed_files: true
 ```
 
 ## Terms & Conditions
