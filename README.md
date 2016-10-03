@@ -1,4 +1,4 @@
-[![Docker Automated buil](https://img.shields.io/docker/automated/faph/hugo-box.svg?maxAge=2592000)](https://hub.docker.com/r/faph/hugo-box/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/faph/hugo-box.svg?maxAge=2592000)](https://hub.docker.com/r/faph/hugo-box/) [![](https://images.microbadger.com/badges/image/faph/hugo-box.svg)](https://microbadger.com/images/faph/hugo-box "Get your own image badge on microbadger.com")
 
 # Hugo Box
 
@@ -45,3 +45,4 @@ publish:
 Released under the [MIT License (MIT)](LICENSE).
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ 
