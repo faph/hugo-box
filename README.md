@@ -1,4 +1,4 @@
-[![Docker Automated buil](https://img.shields.io/docker/automated/faph/hugo-box.svg?maxAge=2592000)](https://hub.docker.com/r/faph/hugo-box/)
+[![Docker Automated build](https://img.shields.io/docker/automated/faph/hugo-box.svg?maxAge=2592000)](https://hub.docker.com/r/faph/hugo-box/)
 
 # Hugo Box
 
@@ -15,10 +15,12 @@ Designed to be used on [Wercker](https://wercker.com) to automatically and **sup
  1. **Build** the website using Hugo when pushing to a GitHub repo
  2. **Publish** the generated website to a GitHub Pages repo (authorised by SSH key)
 
+Separate Docker images are available for different Hugo releases, starting from version 0.16.
+
 A complete `wercker.yml` config file could look like this (save this in the root of the repo):
 
 ```yaml
-box: faph/hugo-box:0.16
+box: faph/hugo-box:0.17
 
 build:
   steps:
