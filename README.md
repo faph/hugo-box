@@ -20,7 +20,7 @@ Separate Docker images are available for different Hugo releases, starting from 
 A complete `wercker.yml` config file could look like this (save this in the root of the repo):
 
 ```yaml
-box: faph/hugo-box:0.17
+box: faph/hugo-box:0.18
 
 build:
   steps:
