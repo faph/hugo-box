@@ -1,9 +1,9 @@
 FROM debian:stable
 MAINTAINER Florenz A. P. Hollebrandse
 LABEL description="Build and deploy Hugo static websites" \
-      version="0.19"
+      version="0.22"
 
-ENV HUGO_URL "https://github.com/spf13/hugo/releases/download/v0.19/hugo_0.19-64bit.deb"
+ENV HUGO_URL "https://github.com/spf13/hugo/releases/download/v0.22/hugo_0.22_Linux-64bit.deb"
 
 # Install required packages
 RUN  apt-get --assume-yes --quiet update \
